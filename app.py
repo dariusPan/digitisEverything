@@ -90,7 +90,7 @@ def index():
                 image = Image.open(image_file.stream)
                 processed_image = preprocess_image(image)
                 # Use Tesseract OCR with a specific page segmentation mode
-                extracted_text_raw = pytesseract.image_to_string(image, config='--psm 6')
+                extracted_text_raw = pytesseract.image_to_string(image, config='--psm 1')
                 extracted_text = pytesseract.image_to_string(processed_image, config='--psm 6')
                 # Store extracted text in session for download
                 session['extracted_text_raw'] = extracted_text_raw

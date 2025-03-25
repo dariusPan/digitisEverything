@@ -83,7 +83,7 @@ A: Modify the Tesseract configuration options in the pytesseract.image_to_string
 **Q4: How can I improve OCR accuracy further?**
 A: Experiment with additional image pre-processing steps such as noise reduction, thresholding, or resizing. Integrating OpenCV can also provide advanced image processing options.
 
-## 7. Additional Resources
+## 6. Additional Resources
 [Tesseract OCR Documentation](https://tesseract-ocr.github.io/tessdoc/)
 
 [Flask Documentation](https://flask.palletsprojects.com/en/stable/)
